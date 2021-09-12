@@ -1,0 +1,68 @@
+/* common css-----------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.column2{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+.column3{
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+.divider{
+    display: flex;
+    justify-content: space-between;
+}
+/* /common css-----------------------------------------------------------*/
+/* header -----------------------------------------------------------*/
+.logo{
+    
+}
+.logo img{
+    width: 100px;
+    display: block;
+}
+.primaryNav{
+
+}
+.primaryNav ul{
+    margin: 0;
+    padding: 0;
+}
+.primaryNav ul li{
+    float: left;
+    list-style: none;
+}
+.primaryNav ul li a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+.primaryNav ul li a:hover{
+    
+}
+
+
+/* /header -----------------------------------------------------------*/

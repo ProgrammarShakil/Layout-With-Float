@@ -1,0 +1,116 @@
+/* common css-----------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.column2{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+.column3{
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+.divider{
+    display: flex;
+    justify-content: space-between;
+}
+.botttomDivider{
+    position: relative;
+}
+.botttomDivider::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: #f2f2ef;
+}
+/* /common css-----------------------------------------------------------*/
+/* header -----------------------------------------------------------*/
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo img{
+    
+    width: 80px;
+    display: block;
+}
+.primaryNav{
+    position: relative;
+}
+
+.primaryNav ul{
+    margin: 0;
+    padding: 0;
+}
+.primaryNav ul li{
+    margin-top: 35px;
+    padding-left: 15px;
+    float: left;
+    list-style: none;
+}
+.primaryNav ul li a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.primaryNav ul li a.active{
+    color: red;
+}
+.primaryNav ul li a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    height: 3px;
+    width: 0%;
+    background: red;
+    transition: all .4s;
+}
+
+
+.primaryNav ul li a:hover{
+    color: red;
+}
+.primaryNav ul li:hover a::after{
+    width: 100%;
+}
+
+.active{
+   
+}
+.active::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 18px;
+    height: 3px;
+    width: 12%;
+    background: red;
+    transition: all .4s;
+}
+/* /header -----------------------------------------------------------*/

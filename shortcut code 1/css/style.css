@@ -1,0 +1,54 @@
+/* common css-----------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.column2{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+.column3{
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+/* /common css-----------------------------------------------------------*/
+/* header -----------------------------------------------------------*/
+.logo{
+
+}
+.logo img{
+
+}
+.primaryNav{
+
+}
+.primaryNav ul{
+    
+}
+.primaryNav ul li{
+    
+}
+.primaryNav ul li a{
+    
+}
+.primaryNav ul li a:hover{
+    
+}
+
+
+/* /header -----------------------------------------------------------*/
